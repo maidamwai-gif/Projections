@@ -3,7 +3,7 @@
   "organization": "Bloomex",
   "description": "Line chart with holiday annotation lines for Bloomex brand order projections",
   "logoUrl": "https://www.gstatic.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
-  "packageUrl": "https://YOUR-HOST/bloomex-looker-viz/",
+  "packageUrl": "https://maidamwai-gif.github.io/Projections/",
   "devMode": false,
   "components": [
     {
