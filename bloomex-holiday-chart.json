@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Data",
+      "elements": [
+        {
+          "id": "week_label",
+          "label": "Week Label",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "week_number",
+          "label": "Week Number",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "actuals",
+          "label": "Actual Orders",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "projected",
+          "label": "Projected Orders",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "orders_2025",
+          "label": "2025 Orders",
+          "type": "METRIC",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "holiday_section",
+      "label": "Holiday Annotations",
+      "elements": [
+        {
+          "id": "show_holidays",
+          "label": "Show holiday annotation lines",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        },
+        {
+          "id": "show_holiday_labels",
+          "label": "Show holiday labels",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        },
+        {
+          "id": "shifted_color",
+          "label": "Shifted holiday color",
+          "type": "FONT_COLOR",
+          "defaultValue": { "color": "#EF9F27" }
+        },
+        {
+          "id": "stable_color",
+          "label": "Stable holiday color",
+          "type": "FONT_COLOR",
+          "defaultValue": { "color": "#378ADD" }
+        }
+      ]
+    },
+    {
+      "id": "chart_section",
+      "label": "Chart Lines",
+      "elements": [
+        {
+          "id": "actuals_color",
+          "label": "Actuals line color",
+          "type": "FONT_COLOR",
+          "defaultValue": { "color": "#1D9E75" }
+        },
+        {
+          "id": "projected_color",
+          "label": "Projected line color",
+          "type": "FONT_COLOR",
+          "defaultValue": { "color": "#378ADD" }
+        },
+        {
+          "id": "prev_year_color",
+          "label": "2025 line color",
+          "type": "FONT_COLOR",
+          "defaultValue": { "color": "#F0997B" }
+        },
+        {
+          "id": "show_prev_year",
+          "label": "Show 2025 line",
+          "type": "CHECKBOX",
+          "defaultValue": "true"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Bloomex Holiday Annotated Chart",
+  "organization": "Bloomex",
+  "description": "Line chart with holiday annotation lines for Bloomex brand order projections",
+  "logoUrl": "https://www.gstatic.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+  "packageUrl": "https://YOUR-HOST/bloomex-looker-viz/",
+  "devMode": false,
+  "components": [
+    {
+      "id": "bloomex-holiday-chart",
+      "name": "Bloomex Holiday Chart",
+      "description": "Actuals vs projections with vertical holiday annotation lines",
+      "iconUrl": "https://www.gstatic.com/images/branding/googleg/1x/googleg_standard_color_128dp.png",
+      "resource": {
+        "js": "bloomex-holiday-chart.js",
+        "config": "bloomex-holiday-chart.json"
+      }
+    }
+  ]
+}
